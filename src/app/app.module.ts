@@ -13,6 +13,7 @@ import { MatCardModule } from "@angular/material/card";
 import { FooterComponent } from "./components/footer/footer.component";
 import { RegionsComponent } from "./pages/regions/regions.component";
 import { RegionComponent } from "./pages/regions/components/region/region.component";
+import { ForecastComponent } from './pages/forecast/forecast.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RegionComponent } from "./pages/regions/components/region/region.compon
     FooterComponent,
     RegionsComponent,
     RegionComponent,
+    ForecastComponent,
   ],
   imports: [
     BrowserModule,

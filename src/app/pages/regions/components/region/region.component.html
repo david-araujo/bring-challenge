@@ -1,10 +1,10 @@
-<a href="#">
-  <mat-card>
+<mat-card>
+  <a [routerLink]="['/forecast', region.name]">
     <mat-card-title>{{ region.name }}</mat-card-title>
     <mat-card-content>
       <p>Weather: {{ region.weather }}</p>
       <p>Temperature: {{ region.temperature }}</p>
       <p>Wind Speed: {{ region.wind_speed }}</p>
     </mat-card-content>
-  </mat-card>
-</a>
+  </a>
+</mat-card>
