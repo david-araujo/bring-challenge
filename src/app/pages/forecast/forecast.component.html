@@ -1,6 +1,6 @@
 <div>
-  <pre>
-    {{ forecast?.city.name }}
-  </pre>
+  <h1>{{ forecast?.city.name }}</h1>
+  <p>MAX TEMP: {{ forecast?.list[0].main.temp_max }}</p>
+  <p>MIN TEMP: {{ forecast?.list[0].main.temp_min }}</p>
   <a [routerLink]="['/']">Voltar</a>
 </div>
